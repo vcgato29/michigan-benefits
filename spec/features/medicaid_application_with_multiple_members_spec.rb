@@ -24,6 +24,9 @@ RSpec.feature "Medicaid app" do
       fill_in "What is their first name?", with: "Christa"
       fill_in "What is their last name?", with: "Tester"
       select_radio(question: "What is their gender?", answer: "Female")
+      select "December"
+      select "25"
+      select "1987"
       proceed_with "Next"
 
       click_on "Add a member"
@@ -31,6 +34,9 @@ RSpec.feature "Medicaid app" do
       fill_in "What is their first name?", with: "Joel"
       fill_in "What is their last name?", with: "Tester"
       select_radio(question: "What is their gender?", answer: "Male")
+      select "September"
+      select "17"
+      select "1980"
       proceed_with "Next"
     end
 

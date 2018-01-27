@@ -22,6 +22,7 @@ module Medicaid
         first_name: member.first_name,
         last_name: member.last_name,
         sex: member.sex,
+        birthday: member.birthday,
       }
     end
 

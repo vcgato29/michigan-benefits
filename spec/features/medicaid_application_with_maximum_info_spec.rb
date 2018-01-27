@@ -204,9 +204,7 @@ RSpec.feature "Medicaid app" do
       proceed_with "Yes"
 
       fill_in "Social Security Number", with: "999900000"
-      select "September"
-      select "17"
-      select "1980"
+
       proceed_with "Next"
     end
 
